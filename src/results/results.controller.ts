@@ -6,6 +6,7 @@ import { CreateResultDto } from './dto/create-result.dto';
 export class ResultsController {
   constructor(private readonly resultsService: ResultsService) {}
 
+// database testlari qo'shildi
   @Get("user/:userId")
   getUserResults(@Param("userId") userId: number) {
     return this.resultsService.getUserResults(userId)
