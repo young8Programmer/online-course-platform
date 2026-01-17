@@ -1,3 +1,4 @@
+// code comments qo'shildi
 // caching mexanizmi qo'shildi
 import { Controller, Post, Body, Get, Param, Put, Delete } from '@nestjs/common';
 import { LessonsService } from './lessons.service';
