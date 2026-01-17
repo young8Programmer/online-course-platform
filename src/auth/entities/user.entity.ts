@@ -1,3 +1,4 @@
+// kod formatlash va indentatsiya
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, JoinTable, OneToMany } from 'typeorm'
 import { Course } from '../../courses/entities/course.entity'
 // code comments qo'shildi
