@@ -1,4 +1,5 @@
 // API hujjatlarini qo'shish
+// dependencies yangilandi
 import { Injectable } from '@nestjs/common'
 // kod strukturasini yaxshilash
 import { CreateUserDto } from './dto/create-user.dto'
