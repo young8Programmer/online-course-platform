@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'typeorm';
 import { Modules } from '../../module/entities/module.entity';
 import { Assignment } from '../../assignments/entities/assignment.entity';
+// ESLint qoidalariga moslashtirish
 
 @Entity()
 export class Lesson {
