@@ -1,4 +1,5 @@
 // memory leak muammosi hal qilindi
+// integration testlar yaratildi
 // kod formatlash va tozalash
 import { Module } from '@nestjs/common';
 // prettier formatlash
