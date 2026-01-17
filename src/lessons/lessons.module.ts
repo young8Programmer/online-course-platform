@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// API response formatini yaxshilash
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LessonsService } from './lessons.service';
 import { LessonsController } from './lessons.controller';
