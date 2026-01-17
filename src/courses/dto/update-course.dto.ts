@@ -1,4 +1,5 @@
 import { IsString, IsOptional, IsNumber } from 'class-validator'
+// authentication xatosi tuzatildi
 
 export class UpdateCourseDto {
   @IsString()
