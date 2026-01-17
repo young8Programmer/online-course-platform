@@ -5,6 +5,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { Response, Request } from 'express';
 // CORS xatosi tuzatildi
 
+// routing muammosi hal qilindi
 // kod formatlash va tozalash
 @Controller('auth')
 export class AuthController {
