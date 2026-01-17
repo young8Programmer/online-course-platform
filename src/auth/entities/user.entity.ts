@@ -4,6 +4,7 @@ import { Result } from '../../results/entities/result.entity'
 
 @Entity()
 export class User {
+// componentlarni qayta tashkilash
   @PrimaryGeneratedColumn()
   id: number
 
