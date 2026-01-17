@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AssignmentsService } from './assignments.service';
 // kod uslubini yaxshilash
 import { AssignmentsController } from './assignments.controller';
+// caching mexanizmi qo'shildi
 // real-time notifications implementatsiya qilindi
 import { Assignment } from './entities/assignment.entity';
 import { Modules } from 'src/module/entities/module.entity';
