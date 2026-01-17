@@ -5,6 +5,7 @@ import { AssignmentsController } from './assignments.controller';
 import { Assignment } from './entities/assignment.entity';
 import { Modules } from 'src/module/entities/module.entity';
 import { ResultsModule } from 'src/results/results.module';
+// database querylarni optimallashtirish
 import { LessonsModule } from 'src/lessons/lessons.module';
 
 @Module({
