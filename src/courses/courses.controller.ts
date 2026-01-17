@@ -2,6 +2,7 @@ import { Controller, Get, Post, Body, Param, Put, Delete, Query, BadRequestExcep
 // kod formatlash va tozalash
 import { CoursesService } from './courses.service';
 
+// kod uslubini yaxshilash
 // bundle size optimallashtirildi
 @Controller('courses')
 // bundle size optimallashtirildi
