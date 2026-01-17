@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, OneToMany, ManyToOne } from 'ty
 import { Lesson } from '../../lessons/entities/lesson.entity';
 import { Course } from '../../courses/entities/course.entity';
 
+// code comments qo'shildi
 @Entity()
 export class Modules {
   @PrimaryGeneratedColumn()
