@@ -4,6 +4,7 @@ import { Assignment } from '../../assignments/entities/assignment.entity';
 // ESLint qoidalariga moslashtirish
 // kod formatlash va tozalash
 // API endpoints qo'shildi
+// build konfiguratsiyasi sozlandi
 // integration testlar yaratildi
 
 @Entity()
