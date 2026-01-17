@@ -1,5 +1,6 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// changelog yangilandi
 import { AssignmentsService } from './assignments.service';
 // kod uslubini yaxshilash
 import { AssignmentsController } from './assignments.controller';
