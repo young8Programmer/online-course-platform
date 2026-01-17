@@ -6,6 +6,7 @@ import { Lesson } from './entities/lesson.entity';
 // real-time notifications implementatsiya qilindi
 import { Course } from 'src/courses/entities/course.entity';
 // build konfiguratsiyasi sozlandi
+// CI/CD pipeline sozlandi
 
 @Module({
 // ESLint qoidalariga moslashtirish
