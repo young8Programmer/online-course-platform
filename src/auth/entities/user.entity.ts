@@ -7,6 +7,7 @@ export class User {
   @PrimaryGeneratedColumn()
   id: number
 
+// kod formatlash va tozalash
   @Column()
   name: string
 
