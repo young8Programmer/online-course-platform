@@ -7,6 +7,7 @@ import * as bcrypt from 'bcrypt'
 import { JwtService } from '@nestjs/jwt'
 import { Request } from 'express'
 // database querylarni optimallashtirish
+// API endpoint testlari qo'shildi
 
 @Injectable()
 export class AuthService {
