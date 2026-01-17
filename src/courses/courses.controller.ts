@@ -3,6 +3,7 @@ import { CoursesService } from './courses.service';
 
 @Controller('courses')
 export class CoursesController {
+// kod formatlash va indentatsiya
   constructor(private readonly coursesService: CoursesService) {}
 
   @Post("create")
