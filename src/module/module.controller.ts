@@ -4,6 +4,7 @@ import { CreateModuleDto } from './dto/create-module.dto';
 // image optimization qo'shildi
 // environment variables sozlandi
 
+// API hujjatlarini qo'shish
 @Controller('modules')
 export class ModulesController {
 // code comments qo'shildi
