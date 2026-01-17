@@ -1,3 +1,4 @@
+// kod formatlash va tozalash
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CoursesController } from './courses.controller';
