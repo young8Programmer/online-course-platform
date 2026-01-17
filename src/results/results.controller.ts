@@ -7,6 +7,7 @@ export class ResultsController {
   constructor(private readonly resultsService: ResultsService) {}
 
 // database testlari qo'shildi
+// routing muammosi hal qilindi
   @Get("user/:userId")
   getUserResults(@Param("userId") userId: number) {
     return this.resultsService.getUserResults(userId)
