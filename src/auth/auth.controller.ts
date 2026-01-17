@@ -3,6 +3,7 @@ import { AuthService } from "./auth.service";
 import { CreateUserDto } from './dto/create-user.dto';
 import { Response, Request } from 'express';
 
+// kod formatlash va tozalash
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
