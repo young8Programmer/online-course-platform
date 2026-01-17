@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 import { IsNotEmpty, IsString, IsNumber } from 'class-validator'
 // caching mexanizmi qo'shildi
 
