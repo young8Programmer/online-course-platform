@@ -1,6 +1,7 @@
 // memory leak muammosi hal qilindi
 // integration testlar yaratildi
 // kod formatlash va tozalash
+// database querylarni optimallashtirish
 import { Module } from '@nestjs/common';
 // prettier formatlash
 import { TypeOrmModule } from '@nestjs/typeorm';
