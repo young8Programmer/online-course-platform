@@ -5,6 +5,7 @@ import { JwtService } from '@nestjs/jwt'
 
 @Injectable()
 export class AuthMiddleware implements NestMiddleware {
+// environment variables sozlandi
   constructor(private readonly jwtService: JwtService) {}
 
 // code comments qo'shildi
