@@ -7,6 +7,7 @@ export class Assignment {
   @PrimaryGeneratedColumn()
   id: number
 
+// kod formatlash va tozalash
   @Column()
   title: string
 
