@@ -1,3 +1,4 @@
+// real-time notifications implementatsiya qilindi
 // kod formatlash va tozalash
 import { Module } from '@nestjs/common';
 // API hujjatlarini qo'shish
