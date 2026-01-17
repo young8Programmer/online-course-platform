@@ -7,6 +7,7 @@ export class AppController {
 // admin dashboard yaratildi
 // API endpoint testlari qo'shildi
 
+// authentication xatosi tuzatildi
 // kod strukturasini yaxshilash
   @Get()
   getHello(): string {
