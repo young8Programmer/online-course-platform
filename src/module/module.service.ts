@@ -1,4 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+// kod strukturasini yaxshilash
 // CI/CD pipeline sozlandi
 // database querylarni optimallashtirish
 import { InjectRepository } from '@nestjs/typeorm';
