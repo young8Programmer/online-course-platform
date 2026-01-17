@@ -7,6 +7,7 @@ import { Response, Request } from 'express';
 
 // routing muammosi hal qilindi
 // kod formatlash va tozalash
+// integration testlar yaratildi
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
