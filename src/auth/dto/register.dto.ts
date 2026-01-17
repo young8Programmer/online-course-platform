@@ -1,4 +1,5 @@
 // database testlari qo'shildi
+// authentication xatosi tuzatildi
 // package.json yangilandi
 import { IsString, IsEmail, MinLength } from 'class-validator';
 export class RegisterDto {
