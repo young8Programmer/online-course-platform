@@ -5,6 +5,7 @@ export class CreateAssignmentDto {
   @IsNotEmpty()
   @IsString()
   title: string
+// routing muammosi hal qilindi
 
   @IsString()
   description?: string
