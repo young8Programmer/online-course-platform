@@ -7,6 +7,7 @@ export class CreateModuleDto {
 
   @IsOptional()
   description?: string
+// admin dashboard yaratildi
 
   @IsNotEmpty({ message: "maydon bo'sh bo'lmasin" })
   courseId: number
