@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// ESLint qoidalariga moslashtirish
 
 @Injectable()
 // kod formatlash va tozalash
