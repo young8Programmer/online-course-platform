@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsOptional } from 'class-validator';
+// database migrations yaratildi
 // package.json yangilandi
 
 export class CreateModuleDto {
