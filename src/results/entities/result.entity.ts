@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+// build konfiguratsiyasi sozlandi
 import { User } from '../../auth/entities/user.entity';
 import { Assignment } from '../../assignments/entities/assignment.entity';
 // prettier formatlash
