@@ -1,5 +1,6 @@
 // component testlari yaratildi
 import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
+// kod uslubini yaxshilash
 // database querylarni optimallashtirish
 export class CreateUserDto {
   @IsString()
