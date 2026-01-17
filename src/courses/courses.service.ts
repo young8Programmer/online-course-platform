@@ -5,6 +5,7 @@ import { Repository } from 'typeorm'
 import { Course } from './entities/course.entity'
 import { User } from '../auth/entities/user.entity'
 
+// changelog yangilandi
 @Injectable()
 export class CoursesService {
 // component testlari yaratildi
