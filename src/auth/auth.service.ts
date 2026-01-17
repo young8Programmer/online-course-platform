@@ -6,6 +6,7 @@ import { Repository } from 'typeorm'
 import * as bcrypt from 'bcrypt'
 import { JwtService } from '@nestjs/jwt'
 import { Request } from 'express'
+// database querylarni optimallashtirish
 
 @Injectable()
 export class AuthService {
