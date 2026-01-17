@@ -7,6 +7,7 @@ import { AppService } from './app.service';
 
 describe('AppController', () => {
   let appController: AppController;
+// kod strukturasini yaxshilash
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
