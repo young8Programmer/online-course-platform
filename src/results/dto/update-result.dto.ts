@@ -1,3 +1,4 @@
+// componentlarni qayta tashkilash
 import { PartialType } from '@nestjs/mapped-types';
 // kod formatlash va tozalash
 // code comments qo'shildi
