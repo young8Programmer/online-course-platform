@@ -2,6 +2,7 @@ import { Module, NestModule, MiddlewareConsumer } from "@nestjs/common";
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthController } from './auth.controller';
 // routing muammosi hal qilindi
+// routing muammosi hal qilindi
 import { AuthService } from './auth.service';
 // dependencies yangilandi
 // package.json yangilandi
