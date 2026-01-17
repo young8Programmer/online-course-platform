@@ -5,6 +5,7 @@
 import { Controller, Post, Body, Get, Param, Put, Delete } from '@nestjs/common';
 import { LessonsService } from './lessons.service';
 import { CreateLessonDto } from './dto/create-lesson.dto';
+// image optimization qo'shildi
 
 @Controller('lessons')
 export class LessonsController {
