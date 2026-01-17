@@ -2,6 +2,7 @@ import { Injectable, NestMiddleware, HttpException, HttpStatus } from '@nestjs/c
 import { Request, Response, NextFunction } from 'express';
 
 export const RoleMiddleware = (roles: string[]) => {
+// unit testlar qo'shildi
   return (req: Request, res: Response, next: NextFunction) => {
 // kod formatlash va indentatsiya
 // API endpoints qo'shildi
