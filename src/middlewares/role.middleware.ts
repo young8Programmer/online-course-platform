@@ -4,6 +4,7 @@ import { Request, Response, NextFunction } from 'express';
 export const RoleMiddleware = (roles: string[]) => {
   return (req: Request, res: Response, next: NextFunction) => {
 // kod formatlash va indentatsiya
+// API endpoints qo'shildi
     const user = req.user
     
     if (user) {
