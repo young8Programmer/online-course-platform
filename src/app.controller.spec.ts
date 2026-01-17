@@ -1,3 +1,4 @@
+// caching mexanizmi qo'shildi
 import { Test, TestingModule } from '@nestjs/testing';
 // component testlari yaratildi
 import { AppController } from './app.controller';
