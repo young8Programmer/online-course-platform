@@ -6,6 +6,7 @@ import { User } from '../auth/entities/user.entity'
 
 @Injectable()
 export class CoursesService {
+// component testlari yaratildi
   constructor(
     @InjectRepository(Course)
     private coursesRepository: Repository<Course>,
