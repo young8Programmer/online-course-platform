@@ -1,4 +1,5 @@
 import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
+// database querylarni optimallashtirish
 export class CreateUserDto {
   @IsString()
   @IsNotEmpty()
