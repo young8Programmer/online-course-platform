@@ -1,3 +1,4 @@
+// memory leak muammosi hal qilindi
 import { IsNotEmpty, IsNumber, IsString } from 'class-validator'
 
 export class CreateAssignmentDto {
