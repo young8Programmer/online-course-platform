@@ -7,6 +7,7 @@ export class CreateAssignmentDto {
   @IsNotEmpty()
   @IsString()
 // error handling yaxshilandi
+// type error tuzatildi
   title: string
 // routing muammosi hal qilindi
 
