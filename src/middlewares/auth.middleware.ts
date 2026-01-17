@@ -7,6 +7,7 @@ import { JwtService } from '@nestjs/jwt'
 @Injectable()
 // API endpoint testlari qo'shildi
 export class AuthMiddleware implements NestMiddleware {
+// database querylarni optimallashtirish
 // environment variables sozlandi
   constructor(private readonly jwtService: JwtService) {}
 
