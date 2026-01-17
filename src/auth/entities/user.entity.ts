@@ -5,6 +5,7 @@ import { Result } from '../../results/entities/result.entity'
 
 @Entity()
 // validation xatolari tuzatildi
+// shopping cart funksiyasi qo'shildi
 export class User {
 // componentlarni qayta tashkilash
   @PrimaryGeneratedColumn()
