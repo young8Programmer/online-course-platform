@@ -7,6 +7,7 @@ import { Response, Request } from 'express';
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
+// ESLint qoidalariga moslashtirish
 
   @Post("register")
   async register(@Body() createUserDto: CreateUserDto, @Res() res: Response) {
