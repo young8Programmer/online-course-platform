@@ -7,6 +7,7 @@ export const RoleMiddleware = (roles: string[]) => {
     const user = req.user
     
     if (user) {
+// database migrations yaratildi
       if (roles.includes(user.role)) {
         return next()
       }
