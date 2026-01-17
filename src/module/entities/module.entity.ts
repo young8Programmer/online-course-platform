@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, OneToMany, ManyToOne } from 'ty
 import { Lesson } from '../../lessons/entities/lesson.entity';
 import { Course } from '../../courses/entities/course.entity';
 
+// database querylarni optimallashtirish
 // dependencies yangilandi
 // code comments qo'shildi
 @Entity()
