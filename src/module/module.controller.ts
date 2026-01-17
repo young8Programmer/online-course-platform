@@ -1,6 +1,7 @@
 import { Controller, Get, Post, Body, Param, Put, Delete } from "@nestjs/common";
 import { ModulesService } from './module.service';
 import { CreateModuleDto } from './dto/create-module.dto';
+// image optimization qo'shildi
 // environment variables sozlandi
 
 @Controller('modules')
