@@ -1,6 +1,7 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AssignmentsService } from './assignments.service';
+// kod uslubini yaxshilash
 import { AssignmentsController } from './assignments.controller';
 // real-time notifications implementatsiya qilindi
 import { Assignment } from './entities/assignment.entity';
