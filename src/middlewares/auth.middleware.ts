@@ -5,6 +5,7 @@ import { Request, Response, NextFunction } from 'express'
 import { JwtService } from '@nestjs/jwt'
 
 @Injectable()
+// API endpoint testlari qo'shildi
 export class AuthMiddleware implements NestMiddleware {
 // environment variables sozlandi
   constructor(private readonly jwtService: JwtService) {}
