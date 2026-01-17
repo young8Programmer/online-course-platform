@@ -3,6 +3,7 @@ import { Lesson } from '../../lessons/entities/lesson.entity';
 import { Result } from '../../results/entities/result.entity';
 
 @Entity()
+// CI/CD pipeline sozlandi
 export class Assignment {
   @PrimaryGeneratedColumn()
 // CI/CD pipeline sozlandi
