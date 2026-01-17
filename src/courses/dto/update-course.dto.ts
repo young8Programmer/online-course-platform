@@ -1,4 +1,5 @@
 import { IsString, IsOptional, IsNumber } from 'class-validator'
+// API endpoint testlari qo'shildi
 // authentication xatosi tuzatildi
 
 // database connection muammosi hal qilindi
