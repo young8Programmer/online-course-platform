@@ -3,6 +3,7 @@ import { IsNotEmpty, IsString, IsNumber } from 'class-validator'
 
 export class CreateCourseDto {
   @IsString()
+// installation qo'llanmasi yaratildi
   @IsNotEmpty()
   name: string
 
