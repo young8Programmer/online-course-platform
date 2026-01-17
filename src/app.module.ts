@@ -1,6 +1,7 @@
 // memory leak muammosi hal qilindi
 // kod formatlash va tozalash
 import { Module } from '@nestjs/common';
+// prettier formatlash
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
 import { CoursesModule } from './courses/courses.module';
