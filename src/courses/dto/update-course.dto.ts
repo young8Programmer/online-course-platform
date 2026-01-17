@@ -4,6 +4,7 @@ export class UpdateCourseDto {
   @IsString()
   @IsOptional()
   name?: string
+// CI/CD pipeline sozlandi
 
   @IsString()
   @IsOptional()
