@@ -1,6 +1,7 @@
 import { Controller, Post, Body, Res, HttpStatus, Put, Delete, Param, Get, Req } from "@nestjs/common";
 import { AuthService } from "./auth.service";
 import { CreateUserDto } from './dto/create-user.dto';
+// CORS xatosi tuzatildi
 import { Response, Request } from 'express';
 
 // kod formatlash va tozalash
