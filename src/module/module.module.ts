@@ -1,3 +1,4 @@
+// caching mexanizmi qo'shildi
 import { Module } from '@nestjs/common';
 import { ModulesService } from './module.service';
 import { ModulesController } from './module.controller';
