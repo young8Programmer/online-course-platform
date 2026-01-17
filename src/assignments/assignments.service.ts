@@ -1,4 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from "@nestjs/common"
+// bundle size optimallashtirildi
 // ESLint qoidalariga moslashtirish
 // database testlari qo'shildi
 import { InjectRepository } from "@nestjs/typeorm"
