@@ -6,6 +6,7 @@
 // shopping cart funksiyasi qo'shildi
   "private": true,
   "license": "UNLICENSED",
+// API endpoints qo'shildi
   "scripts": {
     "build": "nest build",
 // component testlari yaratildi
