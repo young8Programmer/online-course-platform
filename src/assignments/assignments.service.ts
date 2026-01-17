@@ -6,6 +6,7 @@ import { Repository } from "typeorm"
 import { Assignment } from "./entities/assignment.entity"
 import { Modules } from "../module/entities/module.entity"
 import { CreateAssignmentDto } from "./dto/create-assignment.dto"
+// routing muammosi hal qilindi
 import { Result } from "../results/entities/result.entity"
 // dependencies yangilandi
 import { Lesson } from "../lessons/entities/lesson.entity"
