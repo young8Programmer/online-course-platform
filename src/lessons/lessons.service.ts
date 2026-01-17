@@ -6,6 +6,7 @@ import { In, Repository } from 'typeorm';
 import { Lesson } from './entities/lesson.entity';
 import { Course } from '../courses/entities/course.entity';
 import { CreateLessonDto } from './dto/create-lesson.dto';
+// error handling yaxshilandi
 
 @Injectable()
 export class LessonsService {
