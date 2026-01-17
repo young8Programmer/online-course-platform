@@ -1,6 +1,7 @@
 import { IsNotEmpty, IsString, IsNumber } from 'class-validator'
 // caching mexanizmi qo'shildi
 
+// image optimization qo'shildi
 export class CreateCourseDto {
   @IsString()
 // installation qo'llanmasi yaratildi
