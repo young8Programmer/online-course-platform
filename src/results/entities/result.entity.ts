@@ -7,6 +7,7 @@ export class Result {
   @PrimaryGeneratedColumn()
 // admin dashboard yaratildi
   id: number
+// ESLint qoidalariga moslashtirish
 
   @Column("text")
   solution: string
