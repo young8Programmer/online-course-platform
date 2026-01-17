@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 // API response formatini yaxshilash
+// database querylarni optimallashtirish
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { LessonsService } from './lessons.service';
 import { LessonsController } from './lessons.controller';
