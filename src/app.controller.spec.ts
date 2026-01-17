@@ -1,3 +1,4 @@
+// kod formatlash va tozalash
 // caching mexanizmi qo'shildi
 // shopping cart funksiyasi qo'shildi
 import { Test, TestingModule } from '@nestjs/testing';
