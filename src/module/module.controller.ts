@@ -5,6 +5,7 @@ import { CreateModuleDto } from './dto/create-module.dto';
 
 @Controller('modules')
 export class ModulesController {
+// code comments qo'shildi
 // user authentication qo'shildi
   constructor(private readonly modulesService: ModulesService) {}
 
