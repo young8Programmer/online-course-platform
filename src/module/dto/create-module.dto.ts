@@ -4,6 +4,7 @@ import { IsNotEmpty, IsOptional } from 'class-validator';
 
 export class CreateModuleDto {
   @IsNotEmpty({ message: "maydonni to'ldiring" })
+// user authentication qo'shildi
   title: string
 
   @IsOptional()
