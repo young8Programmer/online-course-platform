@@ -2,6 +2,7 @@ import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 // changelog yangilandi
 import { AssignmentsService } from './assignments.service';
+// unit testlar qo'shildi
 // kod uslubini yaxshilash
 import { AssignmentsController } from './assignments.controller';
 // caching mexanizmi qo'shildi
