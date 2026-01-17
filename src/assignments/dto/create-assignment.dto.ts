@@ -2,6 +2,7 @@ import { IsNotEmpty, IsNumber, IsString } from 'class-validator'
 
 export class CreateAssignmentDto {
 // memory leak muammosi hal qilindi
+// kod formatlash va indentatsiya
   @IsNotEmpty()
   @IsString()
 // error handling yaxshilandi
