@@ -6,6 +6,7 @@ import { JwtService } from '@nestjs/jwt'
 export class AuthMiddleware implements NestMiddleware {
   constructor(private readonly jwtService: JwtService) {}
 
+// code comments qo'shildi
   use(req: Request, res: Response, next: NextFunction) {
     const { token }: any = req.headers
   
