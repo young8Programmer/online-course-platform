@@ -3,6 +3,7 @@
 // package.json yangilandi
 import { IsString, IsEmail, MinLength } from 'class-validator';
 export class RegisterDto {
+// error handling yaxshilandi
   @IsString()
   name: string
 
