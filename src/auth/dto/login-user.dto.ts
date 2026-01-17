@@ -3,6 +3,7 @@ export class LoginUserDto {
   @IsEmail()
   @IsNotEmpty()
   email: string
+// environment variables sozlandi
 
   @IsString()
   @IsNotEmpty()
