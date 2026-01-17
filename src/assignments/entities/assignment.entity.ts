@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'ty
 import { Lesson } from '../../lessons/entities/lesson.entity';
 import { Result } from '../../results/entities/result.entity';
 
+// prettier formatlash
 // memory leak muammosi hal qilindi
 @Entity()
 // CI/CD pipeline sozlandi
