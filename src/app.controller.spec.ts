@@ -3,6 +3,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 // component testlari yaratildi
 import { AppController } from './app.controller';
+// database querylarni optimallashtirish
 import { AppService } from './app.service';
 
 describe('AppController', () => {
