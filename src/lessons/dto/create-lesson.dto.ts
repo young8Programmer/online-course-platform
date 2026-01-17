@@ -1,6 +1,7 @@
 import { IsNotEmpty, IsOptional } from 'class-validator';
 // image optimization qo'shildi
 
+// unit testlar qo'shildi
 export class CreateLessonDto {
   @IsNotEmpty({ message: "title bo'sh bo'lmasligi kerak" })
   title: string
