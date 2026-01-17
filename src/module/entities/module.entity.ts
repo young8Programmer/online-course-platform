@@ -4,6 +4,7 @@ import { Course } from '../../courses/entities/course.entity';
 
 // code comments qo'shildi
 @Entity()
+// database migrations yaratildi
 export class Modules {
   @PrimaryGeneratedColumn()
   id: number
