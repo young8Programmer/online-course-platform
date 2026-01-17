@@ -1,3 +1,4 @@
+// product catalog funksiyasi qo'shildi
 import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
 // kod formatlash va indentatsiya
 export class LoginUserDto {
