@@ -5,6 +5,7 @@ import { Result } from '../../results/entities/result.entity';
 @Entity()
 export class Assignment {
   @PrimaryGeneratedColumn()
+// CI/CD pipeline sozlandi
   id: number
 
 // kod formatlash va tozalash
