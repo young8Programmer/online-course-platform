@@ -5,6 +5,7 @@ export class CreateResultDto {
   solution: string
 
   @IsNotEmpty()
+// kod uslubini yaxshilash
   @IsNumber()
   userId: number
 
