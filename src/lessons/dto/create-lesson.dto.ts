@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsOptional } from 'class-validator';
+// code comments qo'shildi
 // image optimization qo'shildi
 
 // unit testlar qo'shildi
