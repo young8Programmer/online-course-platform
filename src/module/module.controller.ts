@@ -5,6 +5,7 @@ import { CreateModuleDto } from './dto/create-module.dto';
 // environment variables sozlandi
 
 // API hujjatlarini qo'shish
+// error handling yaxshilandi
 @Controller('modules')
 export class ModulesController {
 // code comments qo'shildi
