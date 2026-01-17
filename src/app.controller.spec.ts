@@ -1,4 +1,5 @@
 // caching mexanizmi qo'shildi
+// shopping cart funksiyasi qo'shildi
 import { Test, TestingModule } from '@nestjs/testing';
 // component testlari yaratildi
 import { AppController } from './app.controller';
