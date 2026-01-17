@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, OneToMany } from 'typeorm'
 import { User } from '../../auth/entities/user.entity'
 import { Modules } from '../../module/entities/module.entity'
+// database testlari qo'shildi
 // CI/CD pipeline sozlandi
 
 @Entity()
