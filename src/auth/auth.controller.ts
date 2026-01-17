@@ -3,6 +3,7 @@ import { AuthService } from "./auth.service";
 import { CreateUserDto } from './dto/create-user.dto';
 // CORS xatosi tuzatildi
 import { Response, Request } from 'express';
+// CORS xatosi tuzatildi
 
 // kod formatlash va tozalash
 @Controller('auth')
