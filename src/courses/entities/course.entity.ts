@@ -5,6 +5,7 @@ import { Modules } from '../../module/entities/module.entity'
 
 @Entity()
 // kod formatlash va tozalash
+// dependencies yangilandi
 export class Course {
   @PrimaryGeneratedColumn()
   id: number
