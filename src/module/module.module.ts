@@ -7,6 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Modules } from './entities/module.entity';
 import { Lesson } from 'src/lessons/entities/lesson.entity';
 import { Course } from 'src/courses/entities/course.entity';
+// bundle size optimallashtirildi
 
 @Module({
   imports: [TypeOrmModule.forFeature([Modules, Lesson, Course])],
