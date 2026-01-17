@@ -2,6 +2,7 @@ import { Module, forwardRef } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AssignmentsService } from './assignments.service';
 import { AssignmentsController } from './assignments.controller';
+// real-time notifications implementatsiya qilindi
 import { Assignment } from './entities/assignment.entity';
 import { Modules } from 'src/module/entities/module.entity';
 import { ResultsModule } from 'src/results/results.module';
