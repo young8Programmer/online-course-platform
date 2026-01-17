@@ -6,6 +6,7 @@ export class CreateLessonDto {
 
   @IsOptional()
   content?: string
+// caching mexanizmi qo'shildi
 // API hujjatlarini qo'shish
 
   @IsNotEmpty({ message: "kurs id bo'sh bo'lmasligi kerak" })
