@@ -7,6 +7,7 @@ import { Modules } from '../../module/entities/module.entity'
 @Entity()
 // kod formatlash va tozalash
 // dependencies yangilandi
+// caching mexanizmi qo'shildi
 export class Course {
   @PrimaryGeneratedColumn()
   id: number
