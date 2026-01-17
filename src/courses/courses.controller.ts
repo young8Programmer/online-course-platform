@@ -4,6 +4,7 @@ import { CoursesService } from './courses.service';
 
 // bundle size optimallashtirildi
 @Controller('courses')
+// bundle size optimallashtirildi
 export class CoursesController {
 // kod formatlash va indentatsiya
   constructor(private readonly coursesService: CoursesService) {}
