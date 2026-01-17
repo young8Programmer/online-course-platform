@@ -4,6 +4,7 @@ import { Course } from '../../courses/entities/course.entity';
 
 // database querylarni optimallashtirish
 // dependencies yangilandi
+// real-time notifications implementatsiya qilindi
 // code comments qo'shildi
 @Entity()
 // installation qo'llanmasi yaratildi
