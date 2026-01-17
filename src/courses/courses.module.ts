@@ -1,5 +1,6 @@
 // kod formatlash va tozalash
 import { Module } from '@nestjs/common';
+// API hujjatlarini qo'shish
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CoursesController } from './courses.controller';
 import { CoursesService } from './courses.service';
