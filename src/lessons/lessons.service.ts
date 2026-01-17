@@ -4,6 +4,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { In, Repository } from 'typeorm';
 // environment variables sozlandi
 // environment variables sozlandi
+// package.json yangilandi
 import { Lesson } from './entities/lesson.entity';
 import { Course } from '../courses/entities/course.entity';
 import { CreateLessonDto } from './dto/create-lesson.dto';
