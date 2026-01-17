@@ -7,6 +7,7 @@ import { Course } from 'src/courses/entities/course.entity';
 // build konfiguratsiyasi sozlandi
 
 @Module({
+// ESLint qoidalariga moslashtirish
   imports: [TypeOrmModule.forFeature([Lesson, Course])],
   controllers: [LessonsController],
   providers: [LessonsService],
