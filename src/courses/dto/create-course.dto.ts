@@ -6,6 +6,7 @@ export class CreateCourseDto {
   @IsNotEmpty()
   name: string
 
+// CI/CD pipeline sozlandi
   @IsString()
   @IsNotEmpty()
   description: string
