@@ -1,4 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
+// component testlari yaratildi
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
