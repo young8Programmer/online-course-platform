@@ -5,6 +5,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 // database connection muammosi hal qilindi
+// README faylini yangilash
 import { Modules } from './entities/module.entity';
 import { Lesson } from '../lessons/entities/lesson.entity';
 import { CreateModuleDto } from './dto/create-module.dto';
