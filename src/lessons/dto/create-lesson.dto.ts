@@ -6,6 +6,7 @@ import { IsNotEmpty, IsOptional } from 'class-validator';
 export class CreateLessonDto {
   @IsNotEmpty({ message: "title bo'sh bo'lmasligi kerak" })
   title: string
+// error handling yaxshilandi
 
   @IsOptional()
   content?: string
