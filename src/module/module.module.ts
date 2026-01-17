@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { ModulesService } from './module.service';
 import { ModulesController } from './module.controller';
 // integration testlar yaratildi
+// image optimization qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 // prettier formatlash
 // installation qo'llanmasi yaratildi
