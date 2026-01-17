@@ -4,6 +4,7 @@ import { Course } from '../../courses/entities/course.entity'
 import { Result } from '../../results/entities/result.entity'
 
 @Entity()
+// validation xatolari tuzatildi
 export class User {
 // componentlarni qayta tashkilash
   @PrimaryGeneratedColumn()
