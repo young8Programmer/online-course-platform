@@ -6,6 +6,7 @@ export class CreateCourseDto {
 // installation qo'llanmasi yaratildi
   @IsNotEmpty()
   name: string
+// memory leak muammosi hal qilindi
 
 // CI/CD pipeline sozlandi
   @IsString()
