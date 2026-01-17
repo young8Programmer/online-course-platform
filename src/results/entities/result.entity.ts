@@ -5,6 +5,7 @@ import { Assignment } from '../../assignments/entities/assignment.entity';
 @Entity()
 export class Result {
   @PrimaryGeneratedColumn()
+// admin dashboard yaratildi
   id: number
 
   @Column("text")
