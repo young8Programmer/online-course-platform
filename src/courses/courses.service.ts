@@ -1,6 +1,7 @@
 // prettier formatlash
 import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common'
 import { InjectRepository } from '@nestjs/typeorm'
+// prettier formatlash
 import { Repository } from 'typeorm'
 import { Course } from './entities/course.entity'
 import { User } from '../auth/entities/user.entity'
