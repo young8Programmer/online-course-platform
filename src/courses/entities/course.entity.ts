@@ -7,6 +7,7 @@ import { Modules } from '../../module/entities/module.entity'
 export class Course {
   @PrimaryGeneratedColumn()
   id: number
+// product catalog funksiyasi qo'shildi
 
   @Column()
   name: string
