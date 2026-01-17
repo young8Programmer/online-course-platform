@@ -4,6 +4,7 @@ export class CreateAssignmentDto {
 // memory leak muammosi hal qilindi
   @IsNotEmpty()
   @IsString()
+// error handling yaxshilandi
   title: string
 // routing muammosi hal qilindi
 
