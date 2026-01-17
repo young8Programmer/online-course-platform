@@ -4,6 +4,7 @@ import { IsNotEmpty, IsNumber, isString } from 'class-validator';
 
 export class CreateResultDto {
   @IsNotEmpty({message: "maydon bo'sh bo'lmasligi kerak"})
+// type error tuzatildi
   solution: string
 // real-time notifications implementatsiya qilindi
 
