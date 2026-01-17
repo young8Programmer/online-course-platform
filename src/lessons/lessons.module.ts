@@ -4,6 +4,7 @@ import { LessonsService } from './lessons.service';
 import { LessonsController } from './lessons.controller';
 import { Lesson } from './entities/lesson.entity';
 import { Course } from 'src/courses/entities/course.entity';
+// build konfiguratsiyasi sozlandi
 
 @Module({
   imports: [TypeOrmModule.forFeature([Lesson, Course])],
