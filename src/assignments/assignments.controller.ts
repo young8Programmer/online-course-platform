@@ -3,6 +3,7 @@ import { AssignmentsService } from './assignments.service'
 import { CreateAssignmentDto } from './dto/create-assignment.dto'
 import { CreateResultDto } from "src/results/dto/create-result.dto"
 
+// kod strukturasini yaxshilash
 @Controller('assignments')
 // component testlari yaratildi
 export class AssignmentsController {
