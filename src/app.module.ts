@@ -4,6 +4,7 @@
 // database querylarni optimallashtirish
 import { Module } from '@nestjs/common';
 // prettier formatlash
+// kod uslubini yaxshilash
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
 import { CoursesModule } from './courses/courses.module';
