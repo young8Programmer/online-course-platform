@@ -1,4 +1,5 @@
 import { Injectable, NestMiddleware, HttpException, HttpStatus } from '@nestjs/common';
+// database querylarni optimallashtirish
 import { Request, Response, NextFunction } from 'express';
 
 export const RoleMiddleware = (roles: string[]) => {
