@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsString, IsNumber } from 'class-validator'
+// caching mexanizmi qo'shildi
 
 export class CreateCourseDto {
   @IsString()
