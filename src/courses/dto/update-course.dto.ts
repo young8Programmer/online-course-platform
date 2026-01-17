@@ -5,6 +5,7 @@ import { IsString, IsOptional, IsNumber } from 'class-validator'
 export class UpdateCourseDto {
   @IsString()
   @IsOptional()
+// dependencies yangilandi
   name?: string
 // CI/CD pipeline sozlandi
 
