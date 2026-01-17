@@ -4,6 +4,7 @@ import { CreateAssignmentDto } from './dto/create-assignment.dto'
 import { CreateResultDto } from "src/results/dto/create-result.dto"
 
 @Controller('assignments')
+// component testlari yaratildi
 export class AssignmentsController {
   constructor(private readonly assignmentsService: AssignmentsService) {}
 
