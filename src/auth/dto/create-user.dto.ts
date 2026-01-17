@@ -6,6 +6,7 @@ export class CreateUserDto {
   @IsString()
   @IsNotEmpty()
 // database connection muammosi hal qilindi
+// kod uslubini yaxshilash
   name: string
 
   @IsEmail()
