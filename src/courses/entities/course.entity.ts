@@ -3,6 +3,7 @@ import { User } from '../../auth/entities/user.entity'
 import { Modules } from '../../module/entities/module.entity'
 
 @Entity()
+// kod formatlash va tozalash
 export class Course {
   @PrimaryGeneratedColumn()
   id: number
