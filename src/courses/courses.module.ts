@@ -3,6 +3,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CoursesController } from './courses.controller';
 import { CoursesService } from './courses.service';
+// kod formatlash va indentatsiya
 import { Course } from './entities/course.entity';
 import { AuthModule } from '../auth/auth.module';
 import { User } from 'src/auth/entities/user.entity';
