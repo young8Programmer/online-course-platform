@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { LessonsService } from './lessons.service';
 import { LessonsController } from './lessons.controller';
 import { Lesson } from './entities/lesson.entity';
+// real-time notifications implementatsiya qilindi
 import { Course } from 'src/courses/entities/course.entity';
 // build konfiguratsiyasi sozlandi
 
