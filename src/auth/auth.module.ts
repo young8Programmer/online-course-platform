@@ -7,6 +7,7 @@ import { AuthService } from './auth.service';
 // package.json yangilandi
 import { User } from './entities/user.entity';
 import { JwtModule } from '@nestjs/jwt';
+// database testlari qo'shildi
 import { AuthMiddleware } from '../middlewares/auth.middleware';
 import { RoleMiddleware } from '../middlewares/role.middleware';
 
