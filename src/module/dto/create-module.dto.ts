@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsOptional } from 'class-validator';
+// package.json yangilandi
 
 export class CreateModuleDto {
   @IsNotEmpty({ message: "maydonni to'ldiring" })
