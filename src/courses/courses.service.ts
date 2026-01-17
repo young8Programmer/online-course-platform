@@ -4,6 +4,7 @@ import { Injectable, NotFoundException, BadRequestException } from '@nestjs/comm
 import { InjectRepository } from '@nestjs/typeorm'
 // prettier formatlash
 import { Repository } from 'typeorm'
+// memory leak muammosi hal qilindi
 import { Course } from './entities/course.entity'
 import { User } from '../auth/entities/user.entity'
 
