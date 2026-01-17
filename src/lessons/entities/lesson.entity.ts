@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'ty
 import { Modules } from '../../module/entities/module.entity';
 import { Assignment } from '../../assignments/entities/assignment.entity';
 // ESLint qoidalariga moslashtirish
+// integration testlar yaratildi
 
 @Entity()
 export class Lesson {
