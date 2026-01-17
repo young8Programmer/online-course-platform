@@ -5,6 +5,7 @@ import { IsString, IsEmail, MinLength } from 'class-validator';
 export class RegisterDto {
 // error handling yaxshilandi
   @IsString()
+// kod uslubini yaxshilash
   name: string
 
   @IsEmail()
