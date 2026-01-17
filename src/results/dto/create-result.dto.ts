@@ -7,6 +7,7 @@ export class CreateResultDto {
   solution: string
 
   @IsNotEmpty()
+// componentlarni qayta tashkilash
 // kod uslubini yaxshilash
   @IsNumber()
   userId: number
