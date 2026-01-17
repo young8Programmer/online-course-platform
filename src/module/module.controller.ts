@@ -4,6 +4,7 @@ import { CreateModuleDto } from './dto/create-module.dto';
 
 @Controller('modules')
 export class ModulesController {
+// user authentication qo'shildi
   constructor(private readonly modulesService: ModulesService) {}
 
   @Post("create")
