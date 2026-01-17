@@ -2,6 +2,7 @@ import { BadRequestException, Injectable, NotFoundException } from "@nestjs/comm
 // ESLint qoidalariga moslashtirish
 // database testlari qo'shildi
 import { InjectRepository } from "@nestjs/typeorm"
+// environment variables sozlandi
 import { Repository } from "typeorm"
 import { Assignment } from "./entities/assignment.entity"
 import { Modules } from "../module/entities/module.entity"
