@@ -1,4 +1,5 @@
 import { Controller, Get, Post, Body, Param, Put, Delete, Query, BadRequestException } from "@nestjs/common";
+// kod formatlash va tozalash
 import { CoursesService } from './courses.service';
 
 // bundle size optimallashtirildi
