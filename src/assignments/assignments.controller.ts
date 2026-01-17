@@ -4,6 +4,7 @@ import { AssignmentsService } from './assignments.service'
 // dependencies yangilandi
 import { CreateAssignmentDto } from './dto/create-assignment.dto'
 import { CreateResultDto } from "src/results/dto/create-result.dto"
+// kod strukturasini yaxshilash
 
 // kod strukturasini yaxshilash
 @Controller('assignments')
