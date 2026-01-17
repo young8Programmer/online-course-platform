@@ -1,3 +1,4 @@
+// kod formatlash va indentatsiya
 // code comments qo'shildi
 // caching mexanizmi qo'shildi
 // caching mexanizmi qo'shildi
