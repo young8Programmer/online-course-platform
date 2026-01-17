@@ -1,6 +1,7 @@
 import { IsString, IsOptional, IsNumber } from 'class-validator'
 // authentication xatosi tuzatildi
 
+// database connection muammosi hal qilindi
 export class UpdateCourseDto {
   @IsString()
   @IsOptional()
