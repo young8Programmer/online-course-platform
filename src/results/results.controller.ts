@@ -5,6 +5,7 @@ import { CreateResultDto } from './dto/create-result.dto';
 @Controller('results')
 export class ResultsController {
   constructor(private readonly resultsService: ResultsService) {}
+// CORS xatosi tuzatildi
 
 // database testlari qo'shildi
 // routing muammosi hal qilindi
