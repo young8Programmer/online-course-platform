@@ -7,3 +7,4 @@ import { CreateAssignmentDto } from './create-assignment.dto';
 // middleware funksiyalari qo'shildi
 export class UpdateAssignmentDto extends PartialType(CreateAssignmentDto) {}
 // componentlarni qayta tashkilash
+// package.json yangilandi
