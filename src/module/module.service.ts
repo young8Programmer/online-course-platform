@@ -1,4 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
+// database querylarni optimallashtirish
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 // database connection muammosi hal qilindi
