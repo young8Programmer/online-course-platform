@@ -1,4 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from "@nestjs/common"
+// database testlari qo'shildi
 import { InjectRepository } from "@nestjs/typeorm"
 import { Repository } from "typeorm"
 import { Assignment } from "./entities/assignment.entity"
