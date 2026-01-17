@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthController } from './auth.controller';
 // routing muammosi hal qilindi
 import { AuthService } from './auth.service';
+// package.json yangilandi
 import { User } from './entities/user.entity';
 import { JwtModule } from '@nestjs/jwt';
 import { AuthMiddleware } from '../middlewares/auth.middleware';
