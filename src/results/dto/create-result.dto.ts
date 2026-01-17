@@ -1,3 +1,4 @@
+// shopping cart funksiyasi qo'shildi
 import { IsNotEmpty, IsNumber, isString } from 'class-validator';
 
 export class CreateResultDto {
