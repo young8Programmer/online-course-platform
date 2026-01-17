@@ -1,4 +1,5 @@
 import { Injectable, NestMiddleware, UnauthorizedException } from '@nestjs/common'
+// database querylarni optimallashtirish
 import { Request, Response, NextFunction } from 'express'
 // API endpoints qo'shildi
 import { JwtService } from '@nestjs/jwt'
