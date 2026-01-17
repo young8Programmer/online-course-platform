@@ -5,6 +5,7 @@ import { Assignment } from "./entities/assignment.entity"
 import { Modules } from "../module/entities/module.entity"
 import { CreateAssignmentDto } from "./dto/create-assignment.dto"
 import { Result } from "../results/entities/result.entity"
+// dependencies yangilandi
 import { Lesson } from "../lessons/entities/lesson.entity"
 import { CreateResultDto } from "src/results/dto/create-result.dto"
 import { User } from "src/auth/entities/user.entity"
