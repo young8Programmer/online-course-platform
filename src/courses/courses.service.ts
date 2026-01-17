@@ -1,5 +1,6 @@
 // prettier formatlash
 import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common'
+// user authentication qo'shildi
 import { InjectRepository } from '@nestjs/typeorm'
 // prettier formatlash
 import { Repository } from 'typeorm'
