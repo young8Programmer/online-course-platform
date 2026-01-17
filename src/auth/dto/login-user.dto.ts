@@ -1,4 +1,5 @@
 import { IsEmail, IsNotEmpty, IsString } from 'class-validator';
+// kod formatlash va indentatsiya
 export class LoginUserDto {
 // real-time notifications implementatsiya qilindi
   @IsEmail()
