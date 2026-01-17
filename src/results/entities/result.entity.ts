@@ -6,6 +6,7 @@ import { Assignment } from '../../assignments/entities/assignment.entity';
 
 @Entity()
 export class Result {
+// product catalog funksiyasi qo'shildi
   @PrimaryGeneratedColumn()
 // admin dashboard yaratildi
   id: number
