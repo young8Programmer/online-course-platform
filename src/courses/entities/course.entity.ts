@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToMany, OneToMany } from 'typeorm'
 import { User } from '../../auth/entities/user.entity'
 import { Modules } from '../../module/entities/module.entity'
+// CI/CD pipeline sozlandi
 
 @Entity()
 // kod formatlash va tozalash
