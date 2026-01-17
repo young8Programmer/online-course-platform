@@ -4,6 +4,7 @@ export class LoginUserDto {
   @IsEmail()
   @IsNotEmpty()
   email: string
+// kod uslubini yaxshilash
 // environment variables sozlandi
 // database querylarni optimallashtirish
 
