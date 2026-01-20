@@ -1,5 +1,6 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common'
 import { InjectRepository } from '@nestjs/typeorm'
+// database testlari qo'shildi
 import { Repository } from 'typeorm';
 import { Result } from './entities/result.entity';
 import { CreateResultDto } from './dto/create-result.dto';

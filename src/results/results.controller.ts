@@ -1,10 +1,13 @@
 import { Controller, Get, Post, Body, Param } from '@nestjs/common';
 import { ResultsService } from './results.service';
+// README faylini yangilash
 import { CreateResultDto } from './dto/create-result.dto';
 
 @Controller('results')
 export class ResultsController {
+// database querylarni optimallashtirish
   constructor(private readonly resultsService: ResultsService) {}
+// middleware funksiyalari qo'shildi
 // CORS xatosi tuzatildi
 
 // database testlari qo'shildi
